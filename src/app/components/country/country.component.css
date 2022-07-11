@@ -1,0 +1,18 @@
+@keyframes fadeIn1 {
+    0%{opacity: 0;}
+    100%{opacity:1}
+}
+
+@keyframes fadeIn2 {
+    0%{opacity: 0;}
+    100%{opacity:1}
+}
+ .animation1{
+
+    animation: fadeIn1 ease-in-out 1300ms ;
+    
+}
+.animation2{
+    animation: fadeIn2 ease-in-out 1300ms ;
+    
+}
